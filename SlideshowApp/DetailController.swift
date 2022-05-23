@@ -13,10 +13,7 @@ class DetailController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         image.image = imageArray[nowIndex]
-//        let width = imageArray[nowIndex].size.width
-//        let height = imageArray[nowIndex].size.height
-//        image.frame = CGRect(x:0,y:0, width:width*2,height:height * 2)
-//        image.frame = CGRect(x:0,y:0, width:width*2,height:height * 2)
+
     }
     
 
